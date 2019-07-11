@@ -31,7 +31,7 @@ public class ExamplePlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        
+        new LunarClientAPI(this);
     }
     
     public void sendNotification(Player player) {
