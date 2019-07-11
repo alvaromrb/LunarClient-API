@@ -28,10 +28,7 @@ public class LCPacketNotification implements LCPacket {
         return data;
     }
 
-
     public enum Level {
-        INFO,
-        ERROR,
-        NEUTRAL
+        INFO, ERROR, NEUTRAL
     }
 }

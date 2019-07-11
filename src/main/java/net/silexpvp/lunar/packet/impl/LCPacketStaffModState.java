@@ -27,9 +27,6 @@ public class LCPacketStaffModState implements LCPacket {
     }
 
     public enum Mod {
-        XRAY,
-        BUNNY_HOP,
-        NAME_TAGS,
-        NO_CLIP
+        XRAY, BUNNY_HOP, NAME_TAGS, NO_CLIP
     }
 }
