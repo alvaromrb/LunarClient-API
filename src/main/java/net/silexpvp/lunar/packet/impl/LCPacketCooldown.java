@@ -24,6 +24,8 @@ public class LCPacketCooldown implements LCPacket {
         data.write(writeLong(durationMillis));
         data.write(writeInt(material.getId()));
 
+        data.close();
+
         return data;
     }
 }
